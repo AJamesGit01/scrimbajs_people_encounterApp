@@ -1,0 +1,91 @@
+// 1. Create a variable, message, that stores the string: "You have tree new notifications"
+
+// let username = "per"
+
+// let message = "You have tree new notifications"
+
+// console.log(message + username)
+
+// -----------------------------------------------------------------------------------------//
+
+// 2. Create a variable, messageToUser, that contains the message we have logged
+
+// let username = "per"
+// let message = "You have tree new notifications"
+
+// let messageToUser = message + ", " + username + "!"
+
+// console.log(messageToUser)
+
+// ---------------------------------------------------------------------------------------//
+
+// 3. Create two variables, name and greeting. The name variable should store your name,
+// and the greeting should store e.g. "Hi, my name is "
+
+// 3.1 Create a third variable, myGreeting, that contatenates the two strings
+// Log myGreeting to the console
+
+    // let myGreetings = "Hi, Im"
+    // let greet = "Nice to meet you."
+    // let message = myGreetings + " Allen James, " + greet 
+
+    // console.log(message)
+
+//-------------------------------------------------------------------------------------//
+
+// 4. The result is not 14 because you assign the second variable into a string 
+// so the result will be 410 
+
+// let points = 4
+// let bonusPoints = "10"
+
+// let totalPoints = points + bonusPoints
+
+// 4.1 Here an Examples:
+
+// console.log(4 + 5) // 9
+// console.log("2" + "4") // 24
+// console.log("5" + 1) // 51
+// console.log(100 + "100") // 100100
+
+//-------------------------------------------------------------------------------------//
+
+// 5. Grab the welcome-el paragraph and store it in a variable called welcomeEl
+
+// let welcomeEl = document.getElementById("welcome-el")
+
+//  5.1 Create two variables (name & greeting) that contains your name
+//  and the greeting we want to render on the page
+
+// let name = "Allen James"
+// let greeting = "Nice to meet You "
+
+//  5.2 To Render the welcome message using declared (variable) ex. welcomeEl.innerText
+
+// welcomeEl.innerText = greeting + name
+
+// 5.3 To Improve the message with string concatenation 
+
+// Add an emoji to the end! 👋 -->
+// WRITE YOUR CODE BELOW HERE -->
+// HINT: count = count + 1 -->
+
+// welcomeEl.innerText = welcomeEl.innerText + "👋"
+// welcomeEl.innerText += "👋" --> This is the shortest version you can be used.
+
+//-------------------------------------------------------------------------------------//
+
+// let countEl = document.getElementById("count-el")
+// let count = 0
+
+// function increment() {
+// Change this to use the plus equal technique you've learned so we can increment +1
+//     count += 1
+//     countEl.innerText = count
+// }
+
+// function save() {
+//     console.log(count)
+// }
+
+//-------------------------------------------------------------------------------------//
