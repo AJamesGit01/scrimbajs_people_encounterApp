@@ -4,7 +4,7 @@
 It allows users to count passengers by pressing an increment button. Once the count is saved, 
 the value is added to a list of previous entries. A reset button clears the current count and sets it back to zero.
 
-# Features
+# Features:
 
 * Increment Button: Adds +1 to the current passenger count
 
